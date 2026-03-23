@@ -1,0 +1,15 @@
+{
+  "name": "qq-mail",
+  "version": "1.0.0",
+  "description": "QQ邮箱 IMAP/SMTP 集成",
+  "skills": [
+    {
+      "name": "read-mail",
+      "description": "读取QQ邮箱邮件"
+    },
+    {
+      "name": "send-mail",
+      "description": "发送邮件"
+    }
+  ]
+}

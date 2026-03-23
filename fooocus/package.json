@@ -1,0 +1,34 @@
+{
+  "name": "fooocus",
+  "version": "1.0.0",
+  "description": "Local AI image generation with Fooocus",
+  "skills": [
+    {
+      "name": "generate",
+      "description": "Generate AI images using local Fooocus installation",
+      "script": "generate.ps1",
+      "parameters": {
+        "prompt": {
+          "type": "string",
+          "description": "Image generation prompt",
+          "required": true
+        },
+        "negative_prompt": {
+          "type": "string",
+          "description": "Negative prompt (what to avoid)",
+          "default": ""
+        },
+        "style": {
+          "type": "string",
+          "description": "Image style (default/photo/anime/semi/art/magic)",
+          "default": "default"
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "description": "Image aspect ratio (1024×1024, 1152×896, 896×1152, etc.)",
+          "default": "1024×1024"
+        }
+      }
+    }
+  ]
+}

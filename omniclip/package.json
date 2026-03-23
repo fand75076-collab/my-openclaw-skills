@@ -1,0 +1,8 @@
+{
+  "name": "omniclip",
+  "version": "1.0.0",
+  "description": "Omniclip - Open source video editor web app",
+  "scripts": {
+    "start": "cd D:\\Omniclip && npx http-server x -p 3001 -c-1 --cors"
+  }
+}

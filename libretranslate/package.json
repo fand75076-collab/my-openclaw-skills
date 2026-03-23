@@ -1,0 +1,11 @@
+{
+  "name": "libretranslate",
+  "version": "1.0.0",
+  "description": "本地 LibreTranslate 翻译服务",
+  "skills": [
+    {
+      "name": "translate",
+      "description": "使用本地 LibreTranslate 进行翻译"
+    }
+  ]
+}
